@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto; 
+    max-width: 1520px; 
+}
+
+.error_block{
+  
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+padding-bottom:  30px;
+padding-top: 30px;
+color: #FFFFFF;
+border-bottom: 1px solid #ededed;
+}
+
+.foot_note {
+  margin: 0 auto;
+ 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #ededed;
+  max-width: 1520px;
+  padding-bottom: 40px;
+  padding-top: 43px;
+}
+.foot_note div {
+    margin-left: 100px;
+}
+.about_registration{
+    display: flex;
+    margin-bottom: 11px;
+    
+}
+.about_registration div {
+    max-width: 998px;
+    margin-right: 8px;
+    
+}
