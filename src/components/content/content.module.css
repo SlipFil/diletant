@@ -1,0 +1,6 @@
+.content {
+    display: flex;
+    width: 1274px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

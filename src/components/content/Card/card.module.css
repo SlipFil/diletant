@@ -1,0 +1,87 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+.card .about_card {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 233px;
+}
+.card .about_card .about_card_item {
+  border: 1px solid #fff;
+  height: 17px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 12px;
+  padding: 3px 10px 1px 10px;
+  margin: auto;
+}
+/* .card .about_card .about_card_item:last-child {
+  margin-right: 0;
+} */
+.logo_separator {
+  margin-bottom: 10px;
+}
+.name_of_card {
+  width: 280px;
+  text-align: center;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.card .discription {
+  position: absolute;
+  height: 20px;
+  bottom: 201px;
+  width: 300px;
+  height: 220px;
+  background-color: #fff;
+  color: #272b2f;
+  border-radius: 0px 0px 12px 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.55s opacity, 0.55s visibility;
+  box-sizing: border-box;
+}
+.card:hover .discription {
+  opacity: 1;
+  visibility: visible;
+}
+.discription h2,
+.discription div {
+  color: #272b2f;
+}
+.discription h2 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+}
+.discription div {
+    width: 90%;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}

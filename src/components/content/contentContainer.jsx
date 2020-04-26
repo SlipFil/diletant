@@ -3,7 +3,9 @@ import { connect } from "react-redux";
 import Content from "./content";
 import Sort from "./Sort/sort"
 class ContentContainer extends React.Component {
+  
     render() {
+     
         return (
           <>
             <Sort />

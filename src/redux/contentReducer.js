@@ -1,6 +1,12 @@
 
 // const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
 // const SET_USER_PROFILE = "SET_USER_PROFILE";
+import firstCardBG from '../assets/img/firstCard.png'
+import secondCardBG from '../assets/img/secondCard.png'
+import thirdCardBG from '../assets/img/thirdCard.png'
+import fourthCardBG from '../assets/img/thourthCard.png'
+import fifthCardBG from '../assets/img/fifthCard.png'
+import sixthCardBG from '../assets/img/sixthCard.png'
 
 let initialState = {
     cards: [
@@ -10,43 +16,49 @@ let initialState = {
       name:"Вытрезвитель-кошмар пролетария", 
       discription:"Some discription",
       size: "small",
-      imgURL: "" },
+      imgURL: firstCardBG },
       { id: 2, what: "статьи", 
       when: "средние века", 
       where: "европа", 
       name:"Кристина Шведская: королева, промотавшая королевство", 
       discription:"Some discription",
       size: "small",
-      imgURL: "" },
+      imgURL: secondCardBG },
       { id: 3, what: "статьи", 
       when: "средние века", 
       where: "европа", 
       name:"Как Ельцин хотел забрать крым", 
       discription:"Some discription",
       size: "big",
-      imgURL: "" },
+      imgURL: thirdCardBG },
       { id: 4, what: "тесты", 
       when: "новое время", 
       where: "азия", 
       name:"Гражданская война в Камбодже", 
       discription:"Some discription",
       size: "small",
-      imgURL: "" },
+      imgURL: fourthCardBG },
       { id: 5, what: "статьи", 
       when: "средние века", 
       where: "европа", 
       name:"Машина времени", 
       discription: "В истории немало знаковых,переломных и важных годов. И немало людей, которые с удовольствием отправились бы в прошлое, если бы могли.",
       size: "small",
-      imgURL: "" },
+      imgURL: fifthCardBG },
       { id: 6, what: "егэ", 
       when: "XII век", 
       where: "южная америка", 
       name:"Инки, майя или ацтеки", 
       discription:"Some discription",
       size: "small",
-      imgURL: "" },
-      
+      imgURL: sixthCardBG },
+      { id: 7, what: "тесты", 
+      when: "новое время", 
+      where: "азия", 
+      name:"Гражданская война в Камбодже", 
+      discription:"Some discription",
+      size: "small",
+      imgURL: fourthCardBG }
     ],
     
   }
