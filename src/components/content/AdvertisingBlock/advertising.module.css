@@ -1,8 +1,20 @@
 .advertising {
-  
   margin: 0 auto;
-  background-color: #fff;
-  height: 200px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  background-color: #ededed;
+  height: 300px;
   width: 100%;
-  
+  z-index: 10;
 }
+.advertising div a {
+  display: block;
+  color: #272b2f;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 26px;
+  margin-left: 114px;
+  margin-bottom: 12px;
+}
+

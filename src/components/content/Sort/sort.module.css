@@ -4,20 +4,25 @@
   height: 70px;
   display: flex;
   align-items: center;
-  justify-items: space-around;
+  justify-content: flex-start;
+  
   border-radius: 12px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
   margin-top: 50px;
   margin-bottom: 10px;
 }
-.sort div {
+.sort span {
+  
+  margin-left: 32px;
   background-color: #fff;
   font-size: 16px;
   line-height: 19px;
   font-weight: 700;
   color: #202326;
 }
-select {
+.select {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
   width: 90px;
   height: 35px;
   background: #556274;
@@ -27,8 +32,30 @@ select {
   line-height: 16px;
   text-align: center;
 }
-.select option {
-    font-size: 13px;
+select {
+  font-size: 13px;
+  line-height: 16px;
+  width: 90px;
+  height: 35px;
+  color: #556274;
+  border: 1px solid #556274;
+  border-radius: 17px;
+  font-size: 13px;
   line-height: 16px;
   text-align: center;
+}
+select option {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color:#556274;
+}
+.select option {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color:#fff;
+}
+select:active {
+  border: none;
 }

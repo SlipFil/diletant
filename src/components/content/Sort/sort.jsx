@@ -5,7 +5,7 @@ import s from "./sort.module.css";
 const Sort = () => {
   return (
     <div className={s.sort}>
-      <div>Сортировка:</div>
+      <span>Сортировка:</span>
       <select className={s.select}>
         <option selected value="new">Новое</option>
         <option value="best">Лучшее</option>
