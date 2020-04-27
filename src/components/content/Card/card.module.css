@@ -1,9 +1,12 @@
 .card {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 300px;
+  
   height: 400px;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,6 +19,7 @@
   display: flex;
   margin-top: 10px;
   margin-bottom: 233px;
+  
 }
 .card .about_card .about_card_item {
   border: 1px solid #fff;
@@ -27,7 +31,7 @@
   line-height: 12px;
   border-radius: 12px;
   padding: 3px 10px 1px 10px;
-  margin: auto;
+  margin:  auto;
 }
 /* .card .about_card .about_card_item:last-child {
   margin-right: 0;
@@ -47,9 +51,9 @@
 .card .discription {
   position: absolute;
   height: 20px;
-  bottom: 201px;
-  width: 300px;
-  height: 220px;
+  bottom: 0px;
+  width: 100%;
+  height: 55%;
   background-color: #fff;
   color: #272b2f;
   border-radius: 0px 0px 12px 12px;
