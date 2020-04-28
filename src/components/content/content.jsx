@@ -39,9 +39,9 @@ const Content = (props) => {
   });
   return (
     <div className={s.content}>
-      {cards}
+      <div className={s.first_part}>{cards}</div> 
       <Advertising />
-      {cardsAfterAdventising}
+      <div className={s.second_part}>{cardsAfterAdventising}</div> 
       <div className={s.quantity_block}>
         <div className={s.quantity}>показано 12 из 2600 карточек</div>
         <div className={s.more}>БОльше материалов</div>

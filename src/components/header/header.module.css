@@ -1,16 +1,18 @@
 .header_block {
   margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: center;
   background: #202326;
   height: 148px;
   border-bottom: 1px solid #ededed;
   max-width: 1440px;
 }
+
 .input {
+  overflow: hidden;
   width: 1211px;
   height: 48px;
-  margin-top: 50px;
   border-width: 0px;
   background: #ededed;
   border-radius: 24px;
@@ -18,23 +20,27 @@
 font-weight: 500;
 font-size: 25px;
 line-height: 38px;
-
-
-
 color: #272B2F;
 text-align: center;
+margin-right: 15px;
 }
-.close_button {
+/* .close_button {
   margin-top: 50px;
   cursor: pointer;
   width: 48px;
   height: 48px;
   background: #ededed;
   border-radius: 50%;
-}
+} */
 .close_icon {
+  cursor: pointer;
   display: block;
   border: 2px solid #fff;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.close_icon:hover{
+  transform: rotateZ(180deg);
+  transition: 0.5s;
 }

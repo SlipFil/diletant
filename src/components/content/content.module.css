@@ -1,9 +1,14 @@
-.content {
+
+
+ .first_part,  .second_part{
+  margin: 0 auto ;
+  padding: 0;
   display: flex;
   width: 1274px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
+
 .quantity_block{
     display: flex;
     flex-direction: column;
@@ -20,11 +25,13 @@
   margin-bottom: 16px;
 }
 .more {
+  margin: 0 auto;
     padding-top: 15px;
     cursor: pointer;
   width: 246px;
   height: 50px;
   border: 1px solid #ffffff;
+  color: #fff;
   box-sizing: border-box;
   border-radius: 52px;
   font-style: normal;

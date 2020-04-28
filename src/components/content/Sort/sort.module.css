@@ -1,11 +1,11 @@
 .sort {
+  margin: 0 auto;
   background-color: #fff;
   max-width: 1274px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   border-radius: 12px;
   margin-top: 50px;
   margin-bottom: 10px;

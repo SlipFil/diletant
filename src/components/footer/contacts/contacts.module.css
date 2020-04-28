@@ -1,40 +1,53 @@
-* {
-  margin: 0 auto;
-  max-width: 1520px;
-  color: #fff;
-  text-decoration: none;
-  list-style-type: none;
-}
+
 h3 {
+  font-weight: 500;
   margin-bottom: 17px;
 }
 ul {
   padding: 0;
 }
 .footer_contacts {
+  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
+  color: #fff;
   padding-top: 85px;
   padding-bottom: 56px;
   border-bottom: 1px solid #ededed;
   border-top: 1px solid #ededed;
+  max-width: 1440px;
+  
 }
 .contacts img {
   margin-bottom: 18px;
 }
+.footer_contacts li{
+  list-style: none;
+}
+.footer_contacts a{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .contacts h2 {
+  
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
 .contacts a {
+  text-decoration: none;
+  color:#fff;
   margin-right: 14px;
   width: 40px;
   height: auto;
 }
 
 .rubricator ul li {
+  text-decoration: none;
+  color:#fff;
   margin-bottom: 14px;
   font-size: 14px;
   line-height: 17px;
