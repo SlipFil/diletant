@@ -12,7 +12,7 @@ const Advertising = () => {
   return (
     <div className={s.advertising} >
         <div ><a href='#'>реклама на diletant.media</a></div>
-        <a href="#"><img src={advert} alt="advertising" /></a>
+        <a href="#"><img className={s.adimg} src={advert} alt="advertising" /></a>
     </div>
   );
 };

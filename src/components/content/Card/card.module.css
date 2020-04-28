@@ -16,7 +16,9 @@
   
 }
 .card .about_card {
+  
   display: flex;
+  justify-content: center;
   margin-top: 10px;
   margin-bottom: 233px;
   
@@ -31,7 +33,8 @@
   line-height: 12px;
   border-radius: 12px;
   padding: 3px 10px 1px 10px;
-  margin:  auto;
+  margin-right:  10px;
+  
 }
 /* .card .about_card .about_card_item:last-child {
   margin-right: 0;
