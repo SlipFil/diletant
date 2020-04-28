@@ -80,3 +80,10 @@ margin: 0;
 select:active {
   border: none;
 }
+
+@media (max-width: 1024px) {
+  .sort {
+    
+    max-width: 951px;
+  }
+}

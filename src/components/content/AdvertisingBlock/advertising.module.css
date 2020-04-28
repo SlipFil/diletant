@@ -21,10 +21,22 @@
   
   margin-bottom: 12px;
 }
-.advertising  a img{
+.advertising   img{
   width: 1197px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   
+  
+}
+
+@media (max-width: 1024px) {
+  .advertising {
+    padding-left: 37px;
+    max-width: 1024px;
+    height: 252px;
+  }
+
+  .advertising   img{
+    width: 950px;
+    
+  }
 }

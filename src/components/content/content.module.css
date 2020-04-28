@@ -18,6 +18,7 @@
 .quantity {
   color: #b0b0b0;
   font-size: 12px;
+  font-weight: 600;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.05em;
@@ -46,4 +47,16 @@
     transition: 0.5s;
     color: #ab8c43;
     border-color:  #ab8c43;
+}
+
+
+@media (max-width: 1024px) {
+  
+
+  .first_part,  .second_part{
+    
+    display: flex;
+    max-width: 951px;
+    
+  }
 }

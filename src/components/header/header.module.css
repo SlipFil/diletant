@@ -44,3 +44,13 @@ margin-right: 15px;
   transform: rotateZ(180deg);
   transition: 0.5s;
 }
+
+@media (max-width: 1024px) {
+  .header_block {
+   
+    max-width: 1024px;
+  }
+  .input {
+    width: 888px;
+  }
+}
