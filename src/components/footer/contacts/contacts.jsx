@@ -8,6 +8,7 @@ import compilation  from "../../../assets/img/page-facing-up_1f4c4.png"
 import article  from "../../../assets/img/page-facing-up_1f4c4 (1).png"
 import tests  from "../../../assets/img/crown_1f451.png"
 import journal  from "../../../assets/img//crown_1f451 (1).png"
+import logo1024 from "../../../assets/img/diletant_logo_for1024.png"
 
 import s from "./contacts.module.css";
 import { NavLink } from "react-router-dom";
@@ -16,14 +17,17 @@ import { NavLink } from "react-router-dom";
 const Contacts = () => {
   return (
     <div className={s.footer_contacts}>
-      <div className={s.contacts}>
-        <img src={logo} />
+      <div className={s.contacts_links}>
+        <img className={s.logo} src={logo} />
+        <img className={s.logo1024} src={logo1024} />
         <h2>Мы в соцсетях:</h2>
+        <div className={s.links}>
         <a href="https://twitter.com/diletant_media"><img src={TWI} alt="TW" /></a>
         <a href="https://vk.com/diletant_media"  ><img src={VK} alt="VK" /></a>
         <a href="https://www.facebook.com/diletant.media"><img src={FB} alt="FB" /></a>
         <a href="https://ok.ru/diletant.media"><img src={OK} alt="OK" /></a>
-      </div>
+     </div> </div>
+      <div className={s.contacts_other}>
       <div className={s.rubricator}>
           <h3>РУБРИКАТОР</h3>
           <ul>
@@ -55,7 +59,7 @@ const Contacts = () => {
               
           </ul>
       </div>
-    </div>
+    </div></div>
   );
 };
 export default Contacts;

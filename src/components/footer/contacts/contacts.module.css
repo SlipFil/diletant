@@ -18,8 +18,11 @@ ul {
   max-width: 1440px;
   
 }
-.contacts img {
+.contacts_links .logo {
   margin-bottom: 18px;
+}
+.contacts_links .logo1024 {
+  display: none;
 }
 .footer_contacts li{
   list-style: none;
@@ -30,14 +33,14 @@ ul {
 }
 
 
-.contacts h2 {
+.contacts_links h2 {
   
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
-.contacts a {
+.contacts_links a {
   text-decoration: none;
   color:#fff;
   margin-right: 14px;
@@ -81,4 +84,44 @@ ul {
 .info ul li a:hover {
   color: #ab8c43;
   transition: 0.5s;
+}
+@media (max-width: 1024px){
+  .footer_contacts {
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contacts_other{
+    display: flex;
+
+  }
+  .contacts_links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-bottom: 1px solid #ededed;
+  }
+  .contacts_links h2{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .contacts_links .links{
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .contacts_links .logo {
+    display: none;
+  }
+  .contacts_links .logo1024 {
+    margin: 0 auto;
+    width: 400px;
+    display: block;
+  }
+  .emails{
+    margin: 0 70px 0 92px;
+  }
 }

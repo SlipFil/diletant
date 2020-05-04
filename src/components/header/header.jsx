@@ -12,6 +12,7 @@ let cleanInputText = () => {
     props.clearSearchBody();
 }
 
+
   return (
     <div>
       <div className={s.header_block}>

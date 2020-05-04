@@ -47,3 +47,14 @@ max-width: 1440px;
     margin-right: 8px;
     
 }
+
+
+@media (max-width: 1024px){
+  .foot_note div {
+    margin-left: 26px;
+}
+.about_registration{
+  max-width: 730px;
+}
+}
+
