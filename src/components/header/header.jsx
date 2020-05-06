@@ -14,7 +14,7 @@ let cleanInputText = () => {
 
 
   return (
-    <div>
+    <div className={s.wrapper}>
       <div className={s.header_block}>
         <div className={s.input_block}>
           <input

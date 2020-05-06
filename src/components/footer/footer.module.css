@@ -12,7 +12,13 @@ color: #FFFFFF;
 border-bottom: 1px solid #ededed;
 max-width: 1440px;
 }
-
+.registration_wraper{
+  
+  max-width: 1036px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 .foot_note {
   margin: 0 auto;
  
@@ -29,13 +35,14 @@ max-width: 1440px;
   padding-bottom: 40px;
   padding-top: 43px;
 }
-.foot_note div {
+/* .foot_note div {
     margin-left: 100px;
-}
+} */
 .about_registration{
     display: flex;
     align-items: center;
     margin-bottom: 11px;
+    margin: 0 auto;
     
 }
 .about_registration img {
@@ -47,14 +54,56 @@ max-width: 1440px;
     margin-right: 8px;
     
 }
+.about_redactor img {
+  display: none;
+}
+.about_redactor{
+  margin-top: 10px;
+  margin-left: 0;
+}
 
 
-@media (max-width: 1024px){
+
+@media screen and (min-width: 376px) and (max-width: 1024px){
   .foot_note div {
     margin-left: 26px;
 }
 .about_registration{
   max-width: 730px;
 }
+}
+
+@media screen and (max-width: 375px){
+  .error_block{
+    display: none;
+  }
+  
+  .foot_note{
+    padding: 0;
+    margin: 20px;
+    margin-right: 34px;
+    border-bottom: none;
+    font-size: 10px;
+line-height: 12px;
+font-style: normal;
+font-weight: normal;
+  }
+  .about_registration{
+    margin: 0;
+    padding: 0;
+  }
+  .about_registration img{
+    display: none;
+  }
+  .foot_note .about_redactor{
+    width: 100%;
+    margin-bottom: 15px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about_redactor img {
+    display: block;
+  }
 }
 

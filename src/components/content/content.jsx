@@ -30,7 +30,7 @@ import Advertising from "./AdvertisingBlock/advertising";
           />
         );}
     }
-  });debugger
+  });
   let cardsAfterAdventising = props.cards.map((card) => {
     if (card.id > firstPartOfContent) { if ( firstPartOfContent === 2 && card.size ==="big") {return  }
                                         {return (
@@ -53,7 +53,7 @@ import Advertising from "./AdvertisingBlock/advertising";
       <div className={s.second_part}>{cardsAfterAdventising}</div> 
       <div className={s.quantity_block}>
         <div className={s.quantity}>показано 12 из 2600 карточек</div>
-  <div>ширина экрана {screenWidth}</div>
+  {/* <div>ширина экрана {screenWidth}</div> */}
         <div className={s.more}>БОльше материалов</div>
       </div>
     </div>

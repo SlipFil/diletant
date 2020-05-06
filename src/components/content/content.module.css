@@ -4,7 +4,7 @@
   margin: 0 auto ;
   padding: 0;
   display: flex;
-  width: 1274px;
+  max-width: 1274px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -50,13 +50,23 @@
 }
 
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 376px) and (max-width: 1024px) {
   
-
-  .first_part,  .second_part{
+.first_part,  .second_part{
     
     display: flex;
     max-width: 951px;
-    
+    }
+}
+@media screen and (max-width: 375px){
+  .content{
+    margin: 0 auto;
+    max-width: 375;
   }
+  .first_part,  .second_part{
+    display: flex;
+    max-width: 951px;
+    
+    justify-content: center;
+    }
 }

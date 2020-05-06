@@ -1,9 +1,9 @@
 import React from "react";
-
+import filter from "../../../assets/img/filter.png"
 import s from "./sort.module.css";
 
 const Sort = () => {
-  return (
+  return (<>
     <div className={s.sort}>
       <div className={s.box_1}><div><span>Сортировка:</span></div>
         <div><select className={s.select}>
@@ -38,6 +38,16 @@ const Sort = () => {
         </select></div>
 
     </div>
-  );
+    <div className={s.sort_mobile_wrapper}>
+      <div className={s.sort_mobile}>
+          <select className={s.sort_of_new}>
+            <option selected value="new">Сортировка</option>
+            <option value="new">Новое</option>
+            <option value="interesting">Интересное</option>
+          </select>
+          <div className={s.filter}><img src={filter} alt="filter icon"/></div>
+      </div>
+    </div>
+  </>);
 };
 export default Sort;

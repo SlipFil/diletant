@@ -9,7 +9,6 @@
   height: 300px;
   width: 1440px;
   padding-left: 114px;
- 
 }
 .advertising div a {
   display: block;
@@ -18,25 +17,50 @@
   font-size: 16px;
   line-height: 19px;
   margin-top: 26px;
-  
+
   margin-bottom: 12px;
 }
-.advertising   img{
+.advertising .adimg {
   width: 1197px;
   display: block;
-  
-  
+}
+.adimg375{
+  display: none;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 376px) and (max-width: 1024px) {
   .advertising {
     padding-left: 37px;
-    max-width: 1024px;
+    max-width: 971px;
     height: 252px;
   }
 
-  .advertising   img{
+  .advertising .adimg {
     width: 950px;
-    
   }
+}
+@media screen and (max-width: 375px) {
+  .advertising {
+    max-width: 375px;
+    padding: 0;
+    height: 509px;
+    margin: -16px;
+  }
+  .advertising .adimg {
+    display: none;
+  }
+  .advertising div a {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+  }
+  .adimg375{
+    display: block;
+    height: 408px;
+    width: 100%;
+    margin-left: -20px;
+  }
+  
 }
