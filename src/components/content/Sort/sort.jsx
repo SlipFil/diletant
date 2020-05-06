@@ -11,30 +11,30 @@ const Sort = () => {
           <option value="best">Лучшее</option>
         </select></div></div>
       <div className={s.box_2}><select placeholder="Что" className={s.what}>
-        <option selected value="new">Что?</option>
+        <option selected value="what">Что?</option>
         <option value="new">Статьи</option>
-        <option value="interesting">Сборники</option>
-        <option value="interesting">Тесты</option>
-        <option value="interesting">Журналы</option>
+        <option value="Collections">Сборники</option>
+        <option value="Tests">Тесты</option>
+        <option value="Journals">Журналы</option>
       </select>
         <select className={s.where}>
-          <option selected value="new">Где?</option>
-          <option value="new">Везде</option>
-          <option value="interesting">Европа</option>
-          <option value="interesting">Азия</option>
-          <option value="interesting">Америка</option>
-          <option value="interesting">Африка</option>
-          <option value="interesting">Австралия</option>
-          <option value="interesting">Другое</option>
+          <option selected value="where">Где?</option>
+          <option value="all">Везде</option>
+          <option value="Europe">Европа</option>
+          <option value="Asia">Азия</option>
+          <option value="America">Америка</option>
+          <option value="Africa">Африка</option>
+          <option value="Australia">Австралия</option>
+          <option value="other">Другое</option>
         </select>
         <select className={s.when}>
-          <option selected value="new">Когда?</option>
-          <option value="interesting">Древний мир</option>
-          <option value="interesting">Античность</option>
-          <option value="interesting">Средневековье</option>
-          <option value="interesting">Возрождение</option>
-          <option value="interesting">Новое время</option>
-          <option value="interesting">Новейшее</option>
+          <option selected value="when">Когда?</option>
+          <option value="Ancient">Древний мир</option>
+          <option value="Antiquity">Античность</option>
+          <option value="Middle_Ages">Средневековье</option>
+          <option value="Rebirth">Возрождение</option>
+          <option value="New_Ages">Новое время</option>
+          <option value="Newest_Time">Новейшее</option>
         </select></div>
 
     </div>

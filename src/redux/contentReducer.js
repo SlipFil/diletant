@@ -1,6 +1,5 @@
 
-// const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
-// const SET_USER_PROFILE = "SET_USER_PROFILE";
+
 import firstCardBG from '../assets/img/firstCard.png'
 import secondCardBG from '../assets/img/secondCard.png'
 import thirdCardBG from '../assets/img/thirdCard.png'
@@ -99,11 +98,6 @@ const contentReducer= (state = initialState, action) => {
     }
    }
 
-// export const addPostCreator = () => ({ type: ADD_POST });
-// export const setUserProfile = (profile) => ({ type: SET_USER_PROFILE, profile });
-// export const updateNewPostText = (text) => ({
-//   type: UPDATE_NEW_POST_TEXT,
-//   newText: text,
-// });
+
 
 export default contentReducer;

@@ -9,10 +9,9 @@ import article from "../../../assets/img/page-facing-up_1f4c4 (1).png";
 import tests from "../../../assets/img/crown_1f451.png";
 import journal from "../../../assets/img//crown_1f451 (1).png";
 import logo1024 from "../../../assets/img/diletant_logo_for1024.png";
-
 import s from "./contacts.module.css";
-import { NavLink } from "react-router-dom";
-// import font from './ProximaNovaT-Thin.ttf'
+
+
 
 const Contacts = () => {
   return (
@@ -42,7 +41,7 @@ const Contacts = () => {
             <h3>РУБРИКАТОР</h3>
             <ul>
               <li>
-                {" "}
+                
                 <a href="#">
                   <img src={compilation} alt="TW" />
                   сборники
